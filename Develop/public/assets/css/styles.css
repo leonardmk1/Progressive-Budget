@@ -1,11 +1,12 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
 }
 
 table {
@@ -48,4 +49,17 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.button-plus{
+  background-color: green;
+  box-shadow: black;
+  color: white;
+  padding: 10px;
+}
+.button-minus{
+  background-color: red;
+  box-shadow: black;
+  color: white;
+  padding: 10px;
 }
