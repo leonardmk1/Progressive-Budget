@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect("mongodb://user:password1@ds033086.mlab.com:33086/heroku_05g8qgzv", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
