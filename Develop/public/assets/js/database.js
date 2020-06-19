@@ -51,4 +51,4 @@ function getBalance() {
   };
 }
 // listen for the app to be online
-window.addEventListener('online', getBalance());
+window.addEventListener('online', getBalance())
